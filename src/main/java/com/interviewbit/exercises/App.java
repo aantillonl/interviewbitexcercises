@@ -6,8 +6,8 @@ public class App
 {
     public static void main( String[] args )
     {
-        LongestPath solution = new LongestPath();
-        System.out.println(solution.Test());
+        ProblemInterface sol = new FlipToWin();
+        sol.Test();
     }
 
     public static void print2D(ArrayList<ArrayList<Integer>> mat)
